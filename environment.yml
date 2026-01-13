@@ -1,0 +1,11 @@
+name: invoice-proc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - openpyxl
+  - pip
+  - pip:
+    - pdfplumber
+    - jupyterlab
